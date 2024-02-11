@@ -3,6 +3,7 @@ import { MottoSection } from "@/components/MottoSection";
 import { SBF } from "@/components/SBF";
 import { SchoolInfo } from "@/components/SchoolInfo";
 import { Button } from "@/components/ui/button";
+import { Divider } from "@nextui-org/react";
 
 export default function Home() {
   return (
@@ -32,7 +33,6 @@ export default function Home() {
 
       {/* Key Points */}
       <SchoolInfo />
-
     </main>
   );
 }

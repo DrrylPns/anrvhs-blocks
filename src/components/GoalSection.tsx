@@ -11,7 +11,7 @@ export const GoalSection = () => {
     return (
         <section className="max-lg:mt-11">
             <div className={`${styles.paddings} relative z-10 h-screen`}>
-                <div className="absolute w-[20%] inset-0 overflow-hidden gradient-03" />
+                <div className="absolute w-[20%] inset-0 overflow-hidden gradient-03 opacity-50 dark:opacity-80 -z-10" />
                 <motion.div
                     variants={staggerContainer as any}
                     initial="hidden"

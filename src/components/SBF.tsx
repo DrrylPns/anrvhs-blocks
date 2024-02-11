@@ -57,7 +57,7 @@ export const SBF = () => {
 
                     {/* Carousel Starts Here */}
                     <CarouselSBF />
-                    <div className="absolute w-[50%] inset-0 -z-10 gradient-04" />
+                    <div className="absolute w-[50%] inset-0 -z-10 gradient-04 max-lg:hidden" />
                 </motion.div>
 
             </motion.div>
