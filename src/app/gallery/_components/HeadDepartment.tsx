@@ -20,7 +20,7 @@ export const HeadDepartment: React.FC<HeadDepartmentProps> = ({
         <main>
             <motion.div
                 className="w-full flex justify-center items-center z-10 gap-x-6 gap-y-10"
-                variants={fadeIn("right", "tween", 0.2, 1)}
+                variants={fadeIn("right", "tween", 0, 1)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: true, amount: 0.25 }}

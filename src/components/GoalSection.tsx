@@ -35,7 +35,7 @@ export const GoalSection = () => {
                     </motion.div>
 
                     <motion.div
-                        variants={fadeIn('right', "tween", 0.2, 1)}
+                        variants={fadeIn('right', "tween", 0, 1)}
                         className="flex-[0.75] flex justify-center flex-col"
                     >
                         <h1 className="font-bold mb-2 text-[42px]">The goal of this event is to bring <span className="dark:text-blue-300">leaders in information technology</span> together from across the globe.</h1>

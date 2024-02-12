@@ -27,6 +27,7 @@ export const MainNavbar = () => {
         "Gallery",
         "Student's Zone",
         "About Us",
+        "Registration",
     ];
 
     return (
@@ -60,6 +61,11 @@ export const MainNavbar = () => {
                 <NavbarItem>
                     <Link href="/about-us" className={`${pathname === "/about-us" ? 'text-blue-500' : "dark:text-white text-black"}`}>
                         About Us
+                    </Link>
+                </NavbarItem>
+                <NavbarItem>
+                    <Link href="/registration" className={`${pathname === "/registration" ? 'text-blue-500' : "dark:text-white text-black"}`}>
+                        Registration
                     </Link>
                 </NavbarItem>
             </NavbarContent>

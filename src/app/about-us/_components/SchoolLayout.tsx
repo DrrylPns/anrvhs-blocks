@@ -17,7 +17,7 @@ export const SchoolLayout = () => {
                     className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
                 >
                     <motion.div
-                        variants={fadeIn('right', "tween", 0.2, 1)}
+                        variants={fadeIn('right', "tween", 0, 1)}
                         className="flex-[0.75] flex justify-center flex-col"
                     >
                         <h1 className="font-bold mb-2 text-[60px]">School <span className="bg-gradient-to-t from-blue-200 to-blue-500 bg-clip-text text-transparent">Layout.</span></h1>

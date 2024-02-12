@@ -30,7 +30,7 @@ export const Vision = () => {
                     </motion.div>
 
                     <motion.div
-                        variants={fadeIn('right', "tween", 0.2, 1)}
+                        variants={fadeIn('right', "tween", 0, 1)}
                         className="flex-[0.75] flex justify-center flex-col"
                     >
                         <h1 className="font-bold mb-2 text-[60px]">DepEd <span className="bg-gradient-to-t from-blue-200 to-blue-500 bg-clip-text text-transparent">Vision.</span></h1>

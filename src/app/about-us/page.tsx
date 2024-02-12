@@ -12,7 +12,7 @@ const page = () => {
     return (
         <div className={`${styles.paddingX} ${styles.flexCenter} flex-col overflow-hidden`}>
             <div
-                className="grid justify-center items-center h-[500px] bg-[url(https://utfs.io/f/676489cf-d207-4c79-839b-ee02aa6f367e-n7jjqp.png)] bg-cover w-full dark:opacity-60 z-10 "
+                className="grid justify-center items-center rounded-lg h-[500px] bg-[url(https://utfs.io/f/676489cf-d207-4c79-839b-ee02aa6f367e-n7jjqp.png)] bg-cover w-full dark:opacity-60 z-10 "
             >
                 <div className="text-white items-center flex flex-col justify-center text-center z-40">
                     <h1 className="font-bold md:text-[79px] text-[60px] text-white z-50 inline-block text-transparent bg-clip-text border-2 border-white p-7 mb-3">About Us</h1>

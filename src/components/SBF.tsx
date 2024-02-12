@@ -19,7 +19,7 @@ export const SBF = () => {
                 className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
             >
                 <motion.div
-                    variants={fadeIn('left', "tween", 0.2, 1)}
+                    variants={fadeIn('left', "tween", 0, 1)}
                     className="flex-[0.75] flex justify-center flex-col"
                 >
                     <h1 className="font-bold mb-2 text-[42px]">School <span className="dark:text-blue-300">Buildings</span> and <span className="dark:text-blue-300">Facilities.</span></h1>
