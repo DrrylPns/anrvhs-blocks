@@ -13,7 +13,6 @@ export default function Home() {
         className="grid justify-center items-center h-[500px] bg-[url(https://littlevisuals.co/images/sunset.jpg)] bg-no-repeat w-full"
       >
         <div className="text-white items-center flex flex-col justify-center text-center">
-          {/* <div className="absolute w-[50%] inset-0 gradient-03" /> */}
           <h1 className="font-bold md:text-[79px] text-[60px] bg-gradient-to-r from-blue-600 via-green-200 to-blue-600 inline-block text-transparent bg-clip-text border-2 border-white p-7 mb-3">ANRVHS</h1>
           <p className="text-[#95969D]">Bank of Learner's Official Collection in Knowledge System</p>
           <Button className="rounded-full text-white mt-5">

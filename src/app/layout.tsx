@@ -5,6 +5,7 @@ import Providers from "@/components/Providers";
 import { MainNavbar } from "@/components/Navbar";
 import { ThemeProvider } from "@/components/Theme-Providers";
 import { Footer } from "@/components/Footer";
+import ThemeContextProvider from "@/lib/theme-context";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,11 +28,13 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Providers>
-            <MainNavbar />
-            {children}
-            <Footer />
-          </Providers>
+          <ThemeContextProvider>
+            <Providers>
+              <MainNavbar />
+              {children}
+              <Footer />
+            </Providers>
+          </ThemeContextProvider>
         </ThemeProvider>
       </body>
     </html>
